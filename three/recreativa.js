@@ -7,7 +7,7 @@ const canvas = document.querySelector('.webgl')
 const scene = new THREE.Scene()
 
 const loader = new GLTFLoader()
-loader.load('./assets/modelos3d/recreativa_buena.glb', function(glb){
+loader.load('/recreativa_buena.glb', function(glb){
   // console.log(glb)
   const root = glb.scene
   root.scale.set(6,3.5,5)
