@@ -7,7 +7,7 @@ const canvas = document.querySelector('.world_gltf')
 const scene = new THREE.Scene()
 
 const loader = new GLTFLoader()
-loader.load('assets/modelos3d/planeta_tierra.gltf', function(glb){
+loader.load('./assets/modelos3d/planeta_tierra.gltf', function(glb){
   // console.log(glb)
   const root = glb.scene
   root.scale.set(6,6,6)
