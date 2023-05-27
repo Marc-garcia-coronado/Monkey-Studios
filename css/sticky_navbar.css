@@ -1,0 +1,33 @@
+header, nav {
+    background-color: white;
+    transition: .6s;
+}
+
+#main-nav p{
+    color: black ;
+    transition: .6s;
+}
+
+#main-#main-nav a {
+    color: black ;
+    transition: .6s;
+}
+
+#main-nav span {
+    color: black ;
+    transition: .6s;
+}
+
+/* --------------------------------------- */
+
+#main-nav.sticky, header.sticky {
+    background-color: rgb(57, 57, 57) !important;  
+}
+
+#main-nav.sticky p, #main-nav.sticky a, #main-nav.sticky span {
+    color: white;
+}
+
+#main-nav.sticky a:nth-last-child() {
+    color: ;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Shippori+Antique&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bell-bottom-laser');
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+
+.details {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.ball-text {
+    font-family: 'BellBottom.Laser', sans-serif;
+    font-size: 6em !important;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 5rem;
+    left: 30%;
+    top: 60%;
+    opacity: 1;
+    transition: .4s;
+    
+}
+
+.desaparecer {
+    opacity: 0;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .ball-text {
+        font-size: 2rem;
+        left: 10%;
+        top: 40%;
+    }
+}
+
+.world_gltf {
+    width: 600px !important;
+    color: #777777;
+}
+
