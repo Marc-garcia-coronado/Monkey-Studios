@@ -27,7 +27,3 @@ header, nav {
 #main-nav.sticky p, #main-nav.sticky a, #main-nav.sticky span {
     color: white;
 }
-
-#main-nav.sticky a:nth-last-child() {
-    color: ;
-}
